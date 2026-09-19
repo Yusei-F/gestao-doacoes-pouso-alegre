@@ -25,6 +25,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="form-group"><label>Senha</label><input type="password" name="senha" required placeholder="Digite sua senha"></div>
             <button type="submit" class="btn">Entrar no Sistema</button>
         </form>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 15px; text-align: center; line-height: 1.4;">
+            Esqueceu sua senha? Entre em contato com o administrador do sistema para solicitar a redefinição.
+        </p>
         <div style="text-align:center; margin-top:1.5rem;"><a href="index.php" class="btn-outline" style="display:inline-block; width:100%;">&larr; Voltar ao Mural Público</a></div>
     </div>
     <footer class="footer-autoria">
